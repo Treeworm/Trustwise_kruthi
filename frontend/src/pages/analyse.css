@@ -1,0 +1,61 @@
+.analyse-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 10px 20px;
+    background: #f1f1f1;
+    border: none;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    background: #ffffff;
+  }
+  
+  .trends {
+    height: 400px; /* Adjust chart height */
+    margin-top: 20px;
+  }
+  
+  .history {
+    overflow-x: auto;
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .history-table th,
+  .history-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .history-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .history-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
